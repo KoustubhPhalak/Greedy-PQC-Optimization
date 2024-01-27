@@ -1,6 +1,6 @@
 # Greedy PQC Optimization
 
-Novel methodology proposed to optimize Parametric Quantum Circuits (PQC) using greedy algorithm, where parametric gates are represented as set of approximate non-parametric gates. PyTorch + Pennylane implementation of xxx
+Novel methodology proposed to optimize Parametric Quantum Circuits (PQC) using greedy algorithm, where parametric gates are represented as set of approximate non-parametric gates. PyTorch + Pennylane implementation of *"Non-parametric Greedy Optimization of Parametric Quantum Circuits"*
 
 ## Important files
 Primarily, this repository contains 3 important files:
