@@ -26,3 +26,16 @@ Generally, it involves two steps: 1. train the model, and 2. perform optimizatio
 2. ```qnn_transformation.py``` uses the algorithm implemented in ```transformation_matrix_approximation.py``` to optimize and reconstruct trained QNN. Once again, users can change the dataset (line ```24```, lines ```266-277```) and the ansatz (**import**: lines ```28-50```, line ```58```, **reconstruction**: lines ```225-247```, line ```256```). Make sure to choose the desired model path ( line ```65```)
 
 ## Python Library versions
+The following are all the relevant library versions for all python libraries used:
+
+```
+python==3.8.5
+torch==2.0.1
+pennylane==0.33.1
+qiskit==0.45.1
+scikit-learn==1.3.2
+numpy==1.22.0
+tqdm==4.62.3
+```
+
+These libraries are not necessarily required to be at their respective above mentioned versions, however the code has been tried and tested successfully to work at these versions.
