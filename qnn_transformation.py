@@ -54,6 +54,7 @@ class Model(nn.Module):
         super().__init__()
         weight_shapes = {"params": (5, qubits)}
         weight_shapes_strong = {"params": (5, qubits, 3)}
+        # Change according to dataset and ansatz used
         self.pqc = qml.qnn.TorchLayer(pqc_iris_strong_new, weight_shapes_strong, init_method=torch.nn.init.normal_)
 
     def forward(self, x):
