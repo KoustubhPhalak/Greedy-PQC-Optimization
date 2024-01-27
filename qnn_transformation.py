@@ -150,7 +150,7 @@ def pqc_greedy_optimization(parsed_list, etol=0.005):
 
 def add_pennylane_gates(qasm_string, params=None):
     '''
-    Take QASM file as input and convert it to PennyLane circuit
+    Take QASM file/string as input and convert it to PennyLane circuit
     '''
     qasm_instructions = qasm_string.split('\n')
     instructions_without_metadata = [line for line in qasm_instructions[3:]]
